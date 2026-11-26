@@ -1,0 +1,25 @@
+[package]
+name = "aegis-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+url.workspace = true
+percent-encoding.workspace = true
+rand = "0.8"
+base64 = "0.22"
+chacha20poly1305 = "0.10"
+keyring = { version = "3", features = ["windows-native"] }
+ureq = { version = "2.12", features = ["gzip", "brotli", "tls", "charset"] }
+encoding_rs = "0.8"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_NetworkManagement_IpHelper",
+    "Win32_NetworkManagement_Ndis",
+    "Win32_Networking_WinSock",
+] }

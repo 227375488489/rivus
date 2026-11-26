@@ -1,0 +1,38 @@
+# Hosts that are routinely disguised behind a first-party CNAME
+# (metrics.yourbank.com → 3rd-party tracker). Aegis resolves the chain and
+# blocks when the real target is here.
+eulerian.net
+at-o.net
+adobedc.net
+omtrdc.net
+2o7.net
+demdex.net
+everesttech.net
+keyade.com
+commandersact.com
+tags.tiqcdn.com
+tealiumiq.com
+krxd.net
+exelator.com
+bluekai.com
+tagsrvcs.com
+wizaly.com
+ingenious-technologies.net
+travs.io
+dnsdelegation.io
+customeriomail.com
+etracker.com
+etracker.de
+wt-eu02.net
+webtrekk.net
+mateti.net
+atinternet.com
+xiti.com
+hit.gemius.pl
+gemius.pl
+research.de.com
+adformdsp.net
+adfarm1.adition.com
+adclear.net
+adsafety.net
+adspirit.de

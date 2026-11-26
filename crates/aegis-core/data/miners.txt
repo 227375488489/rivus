@@ -1,0 +1,22 @@
+# In-browser mining scripts and the pools they talk to.
+coinhive.com
+coin-hive.com
+cryptoloot.pro
+crypto-loot.com
+jsecoin.com
+webminepool.com
+webmine.pro
+minero.cc
+coinimp.com
+webmine.gq
+moneropool.com
+minexmr.com
+supportxmr.com
+nanopool.org
+2miners.com
+hashvault.pro
+pool.hashvault.pro
+cryptonight.wasm
+authedmine.com
+coinnebula.com
+bjorksta.se
